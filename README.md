@@ -1,15 +1,15 @@
-debugging-exercises
+# Exercices de débo
 ===================
 
-Some exercises to practice debugging Javascript using tools such as the Developer Tools Console and breakpoints
+Quelques exercices pour s'entraîner à déboguer en Javascript à l'aide de la 
+console ou de votre éditeur de code en utilisant les points d'arrêt.
 
-# 1-*
-Simple syntax errors, include errors, common mistakes.
-# 2-*
-Basic logic errors, scope errors.
-# 3-*
-jQuery focused errors.
+## 1
+Erreurs de syntaxe simples, erreurs d'inclusion et erreurs courantes.
+## 2
+Erreurs de logique de base, erreurs de portée.
+## 3
+Erreurs liées à jQuery.
 
 ## Copyright
-
-© DevMountain LLC, 2016. Unauthorized use and/or duplication of this material without express and written permission from DevMountain, LLC is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to DevMountain with appropriate and specific direction to the original content.
+https://education.launchcode.org/intro-to-professional-web-dev/chapters/errors-and-debugging/exercises.html#debugging-practice
