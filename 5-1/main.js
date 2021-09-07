@@ -1,23 +1,23 @@
 (function main() {
-	let launchReady = false;
-	let fuelLevel = 27000;
+	let lancementOk = false;
+	let niveauDeCarburant = 27000;
 
-	if (fuelLevel >= 20000) {
-		console.log('Fuel level cleared.');
-		launchReady = true;
+	if (niveauDeCarburant >= 20000) {
+		console.log('Niveau de carburant vérifié.');
+		lancementOk = true;
 	} else {
-		console.log('WARNING: Insufficient fuel!');
-		launchReady = false;
+		console.log('AVERTISSEMENT : Carburant insuffisant !');
+		lancementOk = false;
 	}
 
-	if (launchReady) {
+	if (lancementOk) {
 		console.log("10, 9, 8...");
-		console.log("Fed parrot...");
+		console.log("Préchauffage ...");
 		console.log("6, 5, 4...");
-		console.log("Ignition...");
+		console.log("Allumage...");
 		console.log("3, 2, 1...");
-		console.log("Liftoff!");
+		console.log("Décollage!");
 	} else {
-		console.log("Launch scrubbed.");
+		console.log("Lancement annulé.");
 	}
 }()); // Main IIFE

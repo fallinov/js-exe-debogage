@@ -1,29 +1,29 @@
 (function main() {
-	let launchReady = false;
-	let fuelLevel = 17000;
-	let crewStatus = true;
-	let computerStatus = 'green';
+	let lancementOk = false;
+	let niveauDeCarburant = 17000;
+	let statutEquipage  = true;
+	let computerStatus = 'vert';
 
-	if (fuelLevel >= 20000) {
-		console.log('Fuel level cleared.');
-		launchReady = true;
+	if (niveauDeCarburant >= 20000) {
+		console.log('Niveau de carburant vérifié.');
+		lancementOk = true;
 	} else {
-		console.log('WARNING: Insufficient fuel!');
-		launchReady = false;
+		console.log('AVERTISSEMENT : Carburant insuffisant !');
+		lancementOk = false;
 	}
 
-	if (launchReady && crewStatus && computerStatus === 'green'){
-		console.log('Crew & computer cleared.');
-		launchReady = true;
+	if (lancementOk && statutEquipage  && computerStatus === 'vert'){
+		console.log('Equipage et ordinateur approuvés.');
+		lancementOk = true;
 	} else {
-		console.log('WARNING: Crew or computer not ready!');
-		launchReady = false;
+		console.log("AVERTISSEMENT : L'équipage ou l'ordinateur n'est pas prêt !");
+		lancementOk = false;
 	}
 
-	if (launchReady) {
+	if (lancementOk) {
 		console.log('10, 9, 8, 7, 6, 5, 4, 3, 2, 1...');
-		console.log('Liftoff!');
+		console.log('Décollage!');
 	} else {
-		console.log('Launch scrubbed.');
+		console.log('Lancement annulé.');
 	}
 }()); // Main IIFE

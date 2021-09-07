@@ -1,12 +1,12 @@
 (function main() {
-	let launchReady = false;
-	let fuelLevel = 17000;
+	let lancementOk = false;
+	let niveauDeCarburant = 17000;
 
-	if (fuellevel >= 20000) {
-		console.log('Fuel level cleared.');
-		launchReady = true;
+	if (niveauDECarburanteCarburant >= 20000) {
+		console.log('Niveau de carburant vérifié.');
+		lancementOk = true;
 	} else {
-		console.log('WARNING: Insufficient fuel!');
-		launchReady = false;
+		console.log('AVERTISSEMENT : Carburant insuffisant !');
+		lancementOk = false;
 	}
 }()); // Main IIFE
