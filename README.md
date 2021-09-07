@@ -1,15 +1,8 @@
-# Exercices de débo
-===================
+# Exercices de déboguage
 
 Quelques exercices pour s'entraîner à déboguer en Javascript à l'aide de la 
 console ou de votre éditeur de code en utilisant les points d'arrêt.
 
-## 1
-Erreurs de syntaxe simples, erreurs d'inclusion et erreurs courantes.
-## 2
-Erreurs de logique de base, erreurs de portée.
-## 3
-Erreurs liées à jQuery.
-
-## Copyright
-https://education.launchcode.org/intro-to-professional-web-dev/chapters/errors-and-debugging/exercises.html#debugging-practice
+- Ex. 1 à 3 : Erreurs de syntaxe simples, erreurs d'inclusion et erreurs courantes.
+- Ex. 4 à 5 : Erreurs d'exécution
+- Ex. 6 à 7 : Erreurs de logique
