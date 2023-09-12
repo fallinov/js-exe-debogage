@@ -7,11 +7,10 @@ for (let i = 0; i < nombres.length; i++) {
 
 	if (DIVIDENDE % diviseur === 0) {
 		estUnfacteur = true;
-		console.log(DIVIDENDE % diviseur === 0)
 	}
 
 	if (estUnfacteur) {
-		console.log(`${diviseur} + ' est un facteur de ' + ${DIVIDENDE} !`);
+		console.log(`${diviseur} est un facteur de ${DIVIDENDE} !`);
 	}
 }
 
